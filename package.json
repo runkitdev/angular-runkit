@@ -2,19 +2,18 @@
   "name": "angular-runkit",
   "version": "0.3.0",
   "description": "Angular RunKit Component.",
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
   "repository": "git@github.com:runkitdev/angular-runkit.git",
   "author": "edge <functaire@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@angular/core": "^4.1.3",
-    "core-js": "^2.4.1",
     "rxjs": "^5.4.0",
     "typescript": "^2.3.4",
     "zone.js": "^0.8.11"
   },
   "scripts": {
-    "build": "tsc -p src"
+    "build": "tsc -p ."
   },
   "dependencies": {}
 }

@@ -1,4 +1,3 @@
-import 'core-js/fn/reflect'
 import { Component, EventEmitter, Input, Output, ViewChild } from '@angular/core'
 
 @Component({
