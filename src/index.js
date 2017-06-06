@@ -5,9 +5,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var RunKitEmbedComponent = (function () {
@@ -39,56 +36,43 @@ var RunKitEmbedComponent = (function () {
     return RunKitEmbedComponent;
 }());
 __decorate([
-    core_1.ViewChild('embed'),
-    __metadata("design:type", Object)
+    core_1.ViewChild('embed')
 ], RunKitEmbedComponent.prototype, "embed", void 0);
 __decorate([
-    core_1.Input(),
-    __metadata("design:type", String)
+    core_1.Input()
 ], RunKitEmbedComponent.prototype, "source", void 0);
 __decorate([
-    core_1.Input(),
-    __metadata("design:type", Boolean)
+    core_1.Input()
 ], RunKitEmbedComponent.prototype, "readOnly", void 0);
 __decorate([
-    core_1.Input(),
-    __metadata("design:type", String)
+    core_1.Input()
 ], RunKitEmbedComponent.prototype, "mode", void 0);
 __decorate([
-    core_1.Input(),
-    __metadata("design:type", String)
+    core_1.Input()
 ], RunKitEmbedComponent.prototype, "nodeVersion", void 0);
 __decorate([
-    core_1.Input(),
-    __metadata("design:type", Array)
+    core_1.Input()
 ], RunKitEmbedComponent.prototype, "env", void 0);
 __decorate([
-    core_1.Input(),
-    __metadata("design:type", String)
+    core_1.Input()
 ], RunKitEmbedComponent.prototype, "title", void 0);
 __decorate([
-    core_1.Input(),
-    __metadata("design:type", String)
+    core_1.Input()
 ], RunKitEmbedComponent.prototype, "minHeight", void 0);
 __decorate([
-    core_1.Input(),
-    __metadata("design:type", String)
+    core_1.Input()
 ], RunKitEmbedComponent.prototype, "packageTimestamp", void 0);
 __decorate([
-    core_1.Input(),
-    __metadata("design:type", String)
+    core_1.Input()
 ], RunKitEmbedComponent.prototype, "preamble", void 0);
 __decorate([
-    core_1.Output(),
-    __metadata("design:type", core_1.EventEmitter)
+    core_1.Output()
 ], RunKitEmbedComponent.prototype, "onLoad", void 0);
 __decorate([
-    core_1.Output(),
-    __metadata("design:type", core_1.EventEmitter)
+    core_1.Output()
 ], RunKitEmbedComponent.prototype, "onURLChanged", void 0);
 __decorate([
-    core_1.Output(),
-    __metadata("design:type", core_1.EventEmitter)
+    core_1.Output()
 ], RunKitEmbedComponent.prototype, "onEvaluate", void 0);
 RunKitEmbedComponent = __decorate([
     core_1.Component({
