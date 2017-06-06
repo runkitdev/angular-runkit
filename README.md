@@ -32,6 +32,25 @@ map: {
 }
 ```
 
+Declare the component in your module:
+
+**`src/app/app.module.ts`**
+```ts
+import { RunKitEmbedComponent } from 'angular-runkit'
+
+...
+
+@NgModule({
+	...
+	declarations: [
+		...
+		RunKitEmbedComponent,
+		...
+	],
+	...
+})
+```
+
 ## Usage
 
 ```html
