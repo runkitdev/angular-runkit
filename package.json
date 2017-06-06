@@ -1,6 +1,6 @@
 {
   "name": "angular-runkit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Angular RunKit Component.",
   "main": "./src/index.js",
   "repository": "git@github.com:runkitdev/angular-runkit.git",
