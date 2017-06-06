@@ -92,6 +92,7 @@ Provide a list of environment variables accessible in the notebook through proce
 ```html
 <runkit-embed
     source='console.log(`Hello, ${ process.env.FIRST_NAME } ${ process.env.LAST_NAME }!`)'
+    [env]='["FIRST_NAME=Haskell", "LAST_NAME=Curry"]'
     nodeVersion='7'>
 </runkit-embed>
 ```
@@ -124,7 +125,7 @@ Specify the Unix time in milliseconds at which packages should resolved. Package
 
 ```html
 <runkit-embed
-    source='require("babel")'
+    source='require("babel-core")'
     packageTimestamp=1468195200000>
 </runkit-embed>
 ```
