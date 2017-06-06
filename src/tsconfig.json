@@ -4,7 +4,8 @@
 		"module": "commonjs",
 		"moduleResolution": "node",
 		"sourceMap": true,
-		"emitDecoratorMetadata": false,
+		"declaration": true,
+		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"lib": ["es2015", "dom"],
 		"suppressImplicitAnyIndexErrors": true
