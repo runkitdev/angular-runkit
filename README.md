@@ -2,7 +2,8 @@
 
 Angular RunKit Component.
 
-## Install
+## Install Shago7937 Master
+Jose Santiago Silva Ramirez
 
 Install the package.
 
